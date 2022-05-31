@@ -25,7 +25,7 @@ used to verify that the software is working correctly.
 After the development of the product and no further bugs are discovered the non-functional
 testing is used to validate the software.
 
-- Is the product API usable by the client?
+- Is the product API covering the requirements by the client?
 - Is the product more performant than previous releases or competiors?
 - Is the software secure to be used in trusted enviromnents?
 - Is the software robus enough to handle large amount of data?
@@ -52,13 +52,14 @@ testing is used to validate the software.
 ------------------------------------------------------------------------------------------------
 ### Minimal requirements for the test case design
 
-- The test case **MUST** follow a name convetion
-- The test case **MUST** have an unique ID within the name convention
-- The test case **MUST** be atomic and test only single features
-- The test case **MUST** have a short description
-- The test case **MUST** have a short algorithm with easy to follow steps
-- The test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
-- The test case **SHOULD** be able to be reused in different test groups
+- Each test suit **MUST** have a name convention allowing grouping in categories
+- Each test case **MUST** follow the test suite name convention
+- Each test case **MUST** have an unique ID
+- Each test case **MUST** be atomic and test only single features
+- Each test case **MUST** have a short description
+- Each test case **MUST** have a short algorithm with easy to follow steps
+- Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
+- Each test case **SHOULD** be able to be reused in different test groups
 
 ------------------------------------------------------------------------------------------------
 ### Example
