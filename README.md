@@ -8,7 +8,7 @@
 Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
 sense it is the verification and validation of the software during the software development
 process. In practice the testers usually do not have any knowledge about the internals of the
-product and proceed using the black box testing methodology.  In this case the tester is required
+product, and use typically the black box testing methodology.  In this case the tester is required
 to identify the required function, supply input and compare it with the expected output. 
 
 
