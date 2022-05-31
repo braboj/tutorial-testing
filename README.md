@@ -28,8 +28,8 @@ sense it is a validation of the software during the software development process
 ### Test scenario design
 
 - The test case **MUST** follow a name convetion
-- The test case **MUST** have an unique ID
-- The test case **MUST** have a short descrition
+- The test case **MUST** have an unique ID within the name convention
+- The test case **MUST** have a short description
 - The test case **MUST** have a short algorithm with easy to follow steps
 - The test case **MUST** be atomic and test only single features
 - The test case **SHOULD** be reusable 
