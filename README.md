@@ -33,7 +33,7 @@ sense it is a validation of the software during the software development process
 - The test case **MUST** have a short description
 - The test case **MUST** have a short algorithm with easy to follow steps
 - The test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
-- The test case **SHOULD** be reusable 
+- The test case **SHOULD** be able to be reused in different test groups
 
 ------------------------------------------------------------------------------------------------
 ### Example
