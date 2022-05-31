@@ -4,8 +4,8 @@
 
 ## Introduction
 
-QA is a short name for Quality and Assurance. It the narrow sense it is a validation of the 
-software during the software development process. The validation itself is called testing. 
+Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow sense it is a validation of the 
+software during the software development process.
 
 ## Concepts
 
