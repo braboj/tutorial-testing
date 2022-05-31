@@ -32,7 +32,7 @@ sense it is a validation of the software during the software development process
 - The test case **MUST** be atomic and test only single features
 - The test case **MUST** have a short description
 - The test case **MUST** have a short algorithm with easy to follow steps
-- The test case **SHOULD** return PASSED, FAILED or SKIPPED
+- The test case **SHOULD** return PASSED, FAILED or SKIPPED for coverage analysis
 - The test case **SHOULD** be reusable 
 
 ------------------------------------------------------------------------------------------------
