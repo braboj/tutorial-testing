@@ -13,19 +13,18 @@ software during the software development process.
 
 ## Activities
 
+- Review software documentation
 - Design and document test scenarios
 - Design and document test plans
 - Design or develop automated testing tools.
 - Document and report software defects using a bug tracking system
-- Plan test schedules or strategies in accordance with project scope or delivery dates.
-- Review software documentation
 - Provide feedback and recommendations to developers on software usability and functionality.
 - Create or maintain databases of known test defects.
 
 ## Test scenario design
 
 - The test case MUST have an unique ID
-- The test case MUST have a short title
+- The test case MUST have a short descrition
 - The test case MUST have a short algorithm
 - The test case SHOULD return PASSED, FAILED or SKIPPED
 - The test case SHOULD describe all prerequirements
