@@ -65,7 +65,7 @@ testing is used to validate the software.
 ### Example
 
 #### ID
-OMB_API_01_01_01
+OMB_API_CONFIG_PORT_01
 
 #### Description
 The DUT MUST use port 502 when the port is set to 0 in the configuration packet.
