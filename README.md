@@ -13,6 +13,8 @@ to identify the required function, supply input and compare it with the expected
 
 ------------------------------------------------------------------------------------------------
 ### Testing concepts
+The black box testing is usually divided in two parts. On one side the functional testing is
+used to verify the normal funtioning of the 
 
 ![Test types](Assets/images/test-types.png)
 
