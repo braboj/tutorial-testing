@@ -25,6 +25,8 @@ software during the software development process. The validation itself is calle
 
 ## Selected references
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+- https://www.bmc.com/blogs/how-to-write-test-cases-for-software/
+- https://www.javatpoint.com/software-engineering-sdlc-models
 
 ## Contribution
 - [Guidelines](GUIDELINES.md)
