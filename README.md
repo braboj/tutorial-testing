@@ -9,12 +9,12 @@ Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes
 sense it is a validation of the software during the software development process.
 
 ------------------------------------------------------------------------------------------------
-### Test types
+### Testing concepts
 
 ![Test types](Assets/images/test-types.png)
 
 ------------------------------------------------------------------------------------------------
-### Tester Activities
+### Tester activities
 
 - Review software documentation
 - Design and document test scenarios
@@ -25,16 +25,15 @@ sense it is a validation of the software during the software development process
 - Create or maintain databases of known test defects.
 
 ------------------------------------------------------------------------------------------------
-### Test scenario design
+### Minimal requirements for test case design
 
 - The test case **MUST** follow a name convetion
 - The test case **MUST** have an unique ID within the name convention
+- The test case **MUST** be atomic and test only single features
 - The test case **MUST** have a short description
 - The test case **MUST** have a short algorithm with easy to follow steps
-- The test case **MUST** be atomic and test only single features
-- The test case **SHOULD** be reusable 
 - The test case **SHOULD** return PASSED, FAILED or SKIPPED
-- The test case **SHOULD** describe all prerequirements
+- The test case **SHOULD** be reusable 
 
 ------------------------------------------------------------------------------------------------
 ### Example
