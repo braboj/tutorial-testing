@@ -103,7 +103,7 @@ The process of monitoring whether the software confomrs to the customers needs.
 ------------------------------------------------------------------------------------------------
 
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
-- https://www.triad.co.uk/news/testing-vs-qa/#:~:text=QA%20and%20Testing%20are%20not,quality%20within%20a%20technical%20arena.
+- https://www.triad.co.uk/news/testing-vs-qa/
 - https://www.bmc.com/blogs/how-to-write-test-cases-for-software/
 - https://www.javatpoint.com/software-engineering-sdlc-models
 - https://www.scnsoft.com/blog/software-development-models
