@@ -23,11 +23,14 @@ software during the software development process.
 
 ## Test scenario design
 
-- The test case MUST have an unique ID
-- The test case MUST have a short descrition
-- The test case MUST have a short algorithm
-- The test case SHOULD return PASSED, FAILED or SKIPPED
-- The test case SHOULD describe all prerequirements
+- The test case **MUST** follow a name convetion
+- The test case **MUST** have an unique ID
+- The test case **MUST** have a short descrition
+- The test case **MUST** have a short algorithm with easy to follow steps
+- The test case **MUST** be atomic and test only single features
+- The test case **SHOULD** be reusable 
+- The test case **SHOULD** return PASSED, FAILED or SKIPPED
+- The test case **SHOULD** describe all prerequirements
 
 ## Examples
 
