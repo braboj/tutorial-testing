@@ -69,6 +69,7 @@ PASSED, FAILED
 - https://www.sketchbubble.com/en/presentation-spiral-model-in-sdlc.html
 - https://www.geeksforgeeks.org/software-testing-techniques/
 - https://www.guru99.com/software-testing-techniques.html
+- https://www.swtestacademy.com/software-testing-techniques/
 
 ------------------------------------------------------------------------------------------------
 ### Credits
