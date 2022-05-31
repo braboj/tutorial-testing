@@ -4,8 +4,8 @@
 
 ## Introduction
 
-Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow sense it is a validation of the 
-software during the software development process.
+Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
+sense it is a validation of the software during the software development process.
 
 ## Concepts
 
