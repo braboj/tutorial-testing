@@ -2,8 +2,6 @@
  <img src='Assets/banners/banner-bhai-branko.png' />
 </p>
 
-## Table of contents
-
 ### Introduction
 
 QA is a short name for Quality and Assurance. It the narrow sense it is a validation of the 
