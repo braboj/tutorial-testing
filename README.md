@@ -2,8 +2,8 @@
  <img src='Assets/banners/banner-bhai-branko.png' />
 </p>
 
-------------------------------------------------------------------------------------------------
 ### Introduction
+------------------------------------------------------------------------------------------------
 
 Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
 sense it is the verification and validation of the software during the software development
@@ -11,8 +11,9 @@ process. In practice the testers usually do not have any knowledge about the int
 product and procede using the black box testing methodology.  In this case the tester is required
 to identify the required function, supply input and compare it with the expected output. 
 
-------------------------------------------------------------------------------------------------
+
 ### Testing concepts
+------------------------------------------------------------------------------------------------
 
 ![Test types](Assets/images/test-types.png)
 
@@ -30,16 +31,18 @@ testing is used to validate the software.
 - Is the software secure to be used in trusted enviromnents?
 - Is the software robus enough to handle large amount of data?
 
-------------------------------------------------------------------------------------------------
+
 ### Testing techniques
+------------------------------------------------------------------------------------------------
 
 - Boundary value
 - Equivalence partitioning
 - Decision tables
 - Ad-hoc testing
 
-------------------------------------------------------------------------------------------------
+
 ### Tester activities
+------------------------------------------------------------------------------------------------
 
 - Review software documentation
 - Design and document test scenarios
@@ -49,8 +52,9 @@ testing is used to validate the software.
 - Provide feedback and recommendations to developers on software usability and functionality.
 - Create or maintain databases of known test defects.
 
-------------------------------------------------------------------------------------------------
+
 ### Minimal requirements for the test case design
+------------------------------------------------------------------------------------------------
 
 - Each test suit **MUST** have a name convention allowing grouping in categories
 - Each test case **MUST** follow the test suite name convention
@@ -61,8 +65,9 @@ testing is used to validate the software.
 - Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
 - Each test case **SHOULD** be able to be reused in different test groups
 
-------------------------------------------------------------------------------------------------
+
 ### Example
+------------------------------------------------------------------------------------------------
 
 #### ID
 OMB_API_CONFIG_PORT_01
@@ -83,8 +88,9 @@ PASSED, FAILED
 6. Validate the response sent by the stack on the bus
 7. If all steps succeeded then the test has passed
 
-------------------------------------------------------------------------------------------------
+
 ### Glossary
+------------------------------------------------------------------------------------------------
 
 #### Verification
 The process of monitoring whether the software runs correctly.
@@ -92,8 +98,10 @@ The process of monitoring whether the software runs correctly.
 #### Validation
 The process of monitoring whether the software confomrs to the customers needs.
 
-------------------------------------------------------------------------------------------------
+
 ### Selected references
+------------------------------------------------------------------------------------------------
+
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 - https://www.triad.co.uk/news/testing-vs-qa/#:~:text=QA%20and%20Testing%20are%20not,quality%20within%20a%20technical%20arena.
 - https://www.bmc.com/blogs/how-to-write-test-cases-for-software/
