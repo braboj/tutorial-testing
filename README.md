@@ -25,7 +25,7 @@ sense it is a validation of the software during the software development process
 - Create or maintain databases of known test defects.
 
 ------------------------------------------------------------------------------------------------
-### Minimal requirements for test case design
+### Minimal requirements for the test case design
 
 - The test case **MUST** follow a name convetion
 - The test case **MUST** have an unique ID within the name convention
@@ -67,6 +67,8 @@ PASSED, FAILED
 - https://www.scnsoft.com/blog/software-development-models
 - https://echoua.com/sdlc-models-full-guide/
 - https://www.sketchbubble.com/en/presentation-spiral-model-in-sdlc.html
+- https://www.geeksforgeeks.org/software-testing-techniques/
+- https://www.guru99.com/software-testing-techniques.html
 
 ------------------------------------------------------------------------------------------------
 ### Credits
