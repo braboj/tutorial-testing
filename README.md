@@ -6,12 +6,29 @@
 ### Introduction
 
 Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
-sense it is a validation of the software during the software development process.
+sense it is the verification and validation of the software during the software development
+process. In practice the testers usually do not have any knowledge about the internals of the
+product and procede using the black box testing methodology.  In this case the tester is required
+to identify the required function, supply input and compare it with the expected output. 
 
 ------------------------------------------------------------------------------------------------
 ### Testing concepts
 
 ![Test types](Assets/images/test-types.png)
+
+#### Verification
+The process of monitoring whether the software runs correctly.
+
+#### Validation
+The process of monitoring whether the software confomrs to the customers needs.
+
+------------------------------------------------------------------------------------------------
+### Testing techniques
+
+- Boundary value
+- Equivalence partitioning
+- Decision tables
+- Ad-hoc testing
 
 ------------------------------------------------------------------------------------------------
 ### Tester activities
@@ -70,6 +87,7 @@ PASSED, FAILED
 - https://www.geeksforgeeks.org/software-testing-techniques/
 - https://www.guru99.com/software-testing-techniques.html
 - https://www.swtestacademy.com/software-testing-techniques/
+- https://www.softwaretestinghelp.com/guide-to-functional-testing/
 
 ------------------------------------------------------------------------------------------------
 ### Credits
