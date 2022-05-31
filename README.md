@@ -2,16 +2,16 @@
  <img src='Assets/banners/banner-bhai-branko.png' />
 </p>
 
-### Introduction
+## Introduction
 
 QA is a short name for Quality and Assurance. It the narrow sense it is a validation of the 
 software during the software development process. The validation itself is called testing. 
 
-### Concepts
+## Concepts
 
 ![Test types](Assets/images/test-types.png)
 
-### Operations
+## Operations
 
 - Design and document test scenarios
 - Design and document test plans
@@ -23,7 +23,7 @@ software during the software development process. The validation itself is calle
 - Create or maintain databases of known test defects.
 
 
-### Selected references
+## Selected references
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
 ## Contribution
