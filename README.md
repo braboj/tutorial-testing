@@ -50,8 +50,8 @@ PASSED, FAILED
 
 #### Algorithm
 
-1. Configure the DUT in message mode, the default number of server ports, and tcpPort set to 0
-2. Create a simulated client and connect to port 502 (default Modbus port)
+1. Configure the DUT as a server in message mode and tcpPort set to 0
+2. Create a simulated modbus client and connect to port 502 (default Modbus port)
 3. Send data to the server
 4. Wait for an indication packet from the stack
 5. Send a response to the indication packet
