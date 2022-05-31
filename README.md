@@ -11,7 +11,7 @@ software during the software development process.
 
 ![Test types](Assets/images/test-types.png)
 
-## Operations
+## Activities
 
 - Design and document test scenarios
 - Design and document test plans
@@ -22,7 +22,7 @@ software during the software development process.
 - Provide feedback and recommendations to developers on software usability and functionality.
 - Create or maintain databases of known test defects.
 
-## Minimum requirements
+## Test scenario design
 
 - The test case MUST have an unique ID
 - The test case MUST have a short title
