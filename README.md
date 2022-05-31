@@ -24,8 +24,8 @@ software during the software development process. The validation itself is calle
 
 
 ### Selected references
-- [ISO 25000](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
-- 
+- [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+
 ## Contribution
 - [Guidelines](GUIDELINES.md)
 - [License](LICENSE.md)
