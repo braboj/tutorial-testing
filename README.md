@@ -13,16 +13,22 @@ to identify the required function, supply input and compare it with the expected
 
 ------------------------------------------------------------------------------------------------
 ### Testing concepts
-The black box testing is usually divided in two parts. On one side the functional testing is
-used to verify the normal funtioning of the 
 
 ![Test types](Assets/images/test-types.png)
 
-#### Verification
-The process of monitoring whether the software runs correctly.
+The black box testing is usually divided in two parts. First the functional testing is
+used to verify that the software is working correctly.
 
-#### Validation
-The process of monitoring whether the software confomrs to the customers needs.
+- When a tested element has a valid input X do I see a correct output Y?
+- When a tested element has an invalid input X do I see the error Y?
+
+After the development of the product and no further bugs are discovered the non-functional
+testing is used to validate the software.
+
+- Is the product API usable by the client?
+- Is the product more performant than previous releases or competiors?
+- Is the software secure to be used in trusted enviromnents?
+- Is the software robus enough to handle large amount of data?
 
 ------------------------------------------------------------------------------------------------
 ### Testing techniques
@@ -76,6 +82,14 @@ PASSED, FAILED
 6. Validate the response sent by the stack on the bus
 7. If all steps succeeded then the test has passed
 
+------------------------------------------------------------------------------------------------
+### Glossary
+
+#### Verification
+The process of monitoring whether the software runs correctly.
+
+#### Validation
+The process of monitoring whether the software confomrs to the customers needs.
 
 ------------------------------------------------------------------------------------------------
 ### Selected references
