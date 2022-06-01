@@ -7,9 +7,12 @@ ________________________________________________________________________________
 
 Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
 sense it is the verification and validation of the software during the software development
-process. In practice the testers usually do not have any knowledge about the internals of the
-product, and use typically the black box testing methodology.  In this case the tester is required
-to identify the required function, supply input and compare it with the expected output. 
+process. 
+
+In practice the testers do not have any knowledge about the internals of the product and use 
+mostly black box testing techniques. In the black box testing scenario the tester is required to 
+identify the required functionality, supply it with a test input and compare it with the 
+expected output. 
 
 
 ### Testing concepts
@@ -103,21 +106,26 @@ The process of monitoring whether the software conforms to the customers needs.
 ### Selected references
 ___________________________________________________________________________________________________
 
-- [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
-- https://www.triad.co.uk/news/testing-vs-qa/
-- https://www.bmc.com/blogs/how-to-write-test-cases-for-software/
+#### QA
+- https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+- https://www.triad.co.uk/news/testing-vs-qa
+- https://www.bmc.com/blogs/how-to-write-test-cases-for-software
 - https://mozaicworks.com/blog/specification-and-good-specification
+
+#### Software development life cycle
 - https://www.javatpoint.com/software-engineering-sdlc-models
 - https://www.scnsoft.com/blog/software-development-models
 - https://agiletech.medium.com/top-6-software-development-life-cycle-sdlc-models-methodologies-14e421bb4dd1
 - https://echoua.com/sdlc-models-full-guide/
 - https://stackify.com/what-is-sdlc/
 - https://www.sketchbubble.com/en/presentation-spiral-model-in-sdlc.html
+
+#### Testing techniques
 - https://www.geeksforgeeks.org/software-testing-techniques/
 - https://www.guru99.com/software-testing-techniques.html
 - https://www.swtestacademy.com/software-testing-techniques/
 - https://www.softwaretestinghelp.com/guide-to-functional-testing/
-- https://www.zucisystems.com/software-testing/functional-testing/#whatFunctionalityTesting
+- https://www.zucisystems.com/software-testing/functional-testing/
 - https://www.simform.com/blog/functional-testing/
 - https://www.guru99.com/code-coverage.html
 
