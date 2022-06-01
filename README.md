@@ -3,7 +3,7 @@
 </p>
 
 ### Introduction
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 Testing is part of the Quality Assurance (QA) and Quality Control (QC) processes. It the narrow 
 sense it is the verification and validation of the software during the software development
@@ -13,7 +13,7 @@ to identify the required function, supply input and compare it with the expected
 
 
 ### Testing concepts
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 ![Test types](Assets/images/test-types.png)
 
@@ -33,7 +33,7 @@ testing is used to validate the software.
 
 
 ### Testing techniques
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 - Boundary value
 - Equivalence partitioning
@@ -42,7 +42,7 @@ testing is used to validate the software.
 
 
 ### Tester activities
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 - Review software documentation
 - Design and document test scenarios
@@ -54,7 +54,7 @@ testing is used to validate the software.
 
 
 ### Minimal requirements for the test case design
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 - Each test suit **MUST** have a name convention allowing grouping in categories
 - Each test case **MUST** follow the test suite name convention
@@ -67,7 +67,7 @@ testing is used to validate the software.
 
 
 ### Example
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 #### ID
 OMB_API_CONFIG_PORT_01
@@ -90,7 +90,7 @@ PASSED, FAILED
 
 
 ### Glossary
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 #### Verification
 The process of monitoring whether the software runs correctly.
@@ -100,7 +100,7 @@ The process of monitoring whether the software confomrs to the customers needs.
 
 
 ### Selected references
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 - https://www.triad.co.uk/news/testing-vs-qa/
@@ -114,8 +114,10 @@ The process of monitoring whether the software confomrs to the customers needs.
 - https://www.swtestacademy.com/software-testing-techniques/
 - https://www.softwaretestinghelp.com/guide-to-functional-testing/
 
-------------------------------------------------------------------------------------------------
+
 ### Credits
+___________________________________________________________________________________________________
+
  - [Branimir Georgiev](https://github.com/braboj)
 
 
