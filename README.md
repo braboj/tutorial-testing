@@ -113,6 +113,7 @@ ________________________________________________________________________________
 - https://www.guru99.com/software-testing-techniques.html
 - https://www.swtestacademy.com/software-testing-techniques/
 - https://www.softwaretestinghelp.com/guide-to-functional-testing/
+- https://www.zucisystems.com/software-testing/functional-testing/#whatFunctionalityTesting
 
 
 ### Credits
