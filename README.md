@@ -29,7 +29,7 @@ testing is used to validate the software.
 - Is the product API covering the requirements by the client?
 - Is the product more performant than previous releases or competiors?
 - Is the software secure to be used in trusted enviromnents?
-- Is the software robus enough to handle large amount of data?
+- Is the software robust enough to handle large amount of data?
 
 
 ### Testing techniques
@@ -97,7 +97,7 @@ ________________________________________________________________________________
 The process of monitoring whether the software runs correctly.
 
 #### Validation
-The process of monitoring whether the software confomrs to the customers needs.
+The process of monitoring whether the software conforms to the customers needs.
 
 
 ### Selected references
