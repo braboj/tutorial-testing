@@ -35,10 +35,11 @@ testing is used to validate the software.
 ### Testing techniques
 ___________________________________________________________________________________________________
 
-- Boundary value
-- Equivalence partitioning
-- Decision tables
-- Ad-hoc testing
+- **Ad-hoc testing** (quick script to exlore the product)
+- **Equivalence partitioning** (create value groups)
+- **Boundary value** (test the value groups near the limits)
+- **Decision tables** (useful for state machines)
+- **Use cases** (usually on-demand scripts by the developers)
 
 
 ### Tester activities
@@ -118,6 +119,7 @@ ________________________________________________________________________________
 - https://www.softwaretestinghelp.com/guide-to-functional-testing/
 - https://www.zucisystems.com/software-testing/functional-testing/#whatFunctionalityTesting
 - https://www.simform.com/blog/functional-testing/
+- https://www.guru99.com/code-coverage.html
 
 
 ### Credits
