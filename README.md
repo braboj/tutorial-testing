@@ -41,7 +41,7 @@ ________________________________________________________________________________
 - **Ad-hoc testing** (quick script to exlore the product)
 - **Equivalence partitioning** (create value groups)
 - **Boundary value** (test the value groups near the limits)
-- **Decision tables** (useful for state machines)
+- **Decision tables** (useful to test events and state machines)
 - **Use cases** (usually on-demand scripts by the developers)
 
 
