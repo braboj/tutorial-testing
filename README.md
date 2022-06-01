@@ -105,15 +105,19 @@ ________________________________________________________________________________
 - [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 - https://www.triad.co.uk/news/testing-vs-qa/
 - https://www.bmc.com/blogs/how-to-write-test-cases-for-software/
+- https://mozaicworks.com/blog/specification-and-good-specification
 - https://www.javatpoint.com/software-engineering-sdlc-models
 - https://www.scnsoft.com/blog/software-development-models
+- https://agiletech.medium.com/top-6-software-development-life-cycle-sdlc-models-methodologies-14e421bb4dd1
 - https://echoua.com/sdlc-models-full-guide/
+- https://stackify.com/what-is-sdlc/
 - https://www.sketchbubble.com/en/presentation-spiral-model-in-sdlc.html
 - https://www.geeksforgeeks.org/software-testing-techniques/
 - https://www.guru99.com/software-testing-techniques.html
 - https://www.swtestacademy.com/software-testing-techniques/
 - https://www.softwaretestinghelp.com/guide-to-functional-testing/
 - https://www.zucisystems.com/software-testing/functional-testing/#whatFunctionalityTesting
+- https://www.simform.com/blog/functional-testing/
 
 
 ### Credits
