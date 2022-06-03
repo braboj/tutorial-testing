@@ -129,6 +129,8 @@ ________________________________________________________________________________
 - https://www.simform.com/blog/functional-testing/
 - https://www.guru99.com/code-coverage.html
 
+### Non-functional tests
+ - https://loadninja.com/articles/performance-test-types/
 
 ### Credits
 ___________________________________________________________________________________________________
