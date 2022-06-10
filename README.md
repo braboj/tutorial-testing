@@ -132,6 +132,10 @@ ________________________________________________________________________________
 ### Non-functional tests
  - https://loadninja.com/articles/performance-test-types/
 
+
+### RFC
+- https://datatracker.ietf.org/doc/html/rfc2119
+
 ### Credits
 ___________________________________________________________________________________________________
 
