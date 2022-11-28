@@ -66,7 +66,7 @@ ________________________________________________________________________________
 - Each test case **MUST** be atomic and test only single features
 - Each test case **MUST** have a short description
 - Each test case **MUST** have a short algorithm with easy to follow steps
-- Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
+- Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better analysis
 - Each test case **SHOULD** be able to be reused in different test groups
 
 
