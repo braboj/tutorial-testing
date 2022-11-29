@@ -38,7 +38,7 @@ testing is used to validate the software.
 ### Testing techniques
 ___________________________________________________________________________________________________
 
-- **Ad-hoc testing** (quick script to exlore the product)
+- **Ad-hoc testing** (basic script or manual tests to exlore the product)
 - **Equivalence partitioning** (create value groups)
 - **Boundary value** (test the value groups near the limits)
 - **Decision tables** (useful to test events and state machines)
