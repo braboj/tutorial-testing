@@ -60,14 +60,15 @@ ________________________________________________________________________________
 ### Minimal requirements for the test case design
 ___________________________________________________________________________________________________
 
-- Each test suit **MUST** have a name convention allowing grouping in categories
-- Each test case **MUST** follow the test suite name convention
-- Each test case **MUST** have an unique ID
-- Each test case **MUST** be atomic and test only single features
-- Each test case **MUST** have a short description
-- Each test case **MUST** have a short algorithm with easy to follow steps
-- Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
-- Each test case **SHOULD** be able to be reused in different test groups
+1. Each test suit **MUST** have a name convention allowing grouping in categories
+2. Each test case **MUST** follow the test suite name convention
+3. Each test case **MUST** have an unique ID
+4. Each test case **MUST** be atomic and test only one part of a feature
+5. Each test case **MUST** answer the test scenario with 'Yest' or 'No' 
+6. Each test case **MUST** have a short description consisting of the test input and test output
+7. Each test case **MUST** have a short algorithm with easy to follow steps
+8. Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
+9. Each test case **SHOULD** be able to be reused in different test groups
 
 
 ### Example
