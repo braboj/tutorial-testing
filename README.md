@@ -14,17 +14,11 @@ mostly black box testing techniques. In the black box testing scenario the teste
 identify the required functionality, supply it with a test input and compare it with the 
 expected output. 
 
-
-### Testing concepts
-___________________________________________________________________________________________________
-
-![Test types](Assets/images/test-types.png)
-
 The black box testing is usually divided in two parts. First the functional testing is
 used to verify that the software is working correctly.
 
-- When a tested element has a valid input X do I see a correct output Y?
-- When a tested element has an invalid input X do I see the error Y?
+- When a tested element has a valid input X do I see a correct output Y (positive scenario)?
+- When a tested element has an invalid input X do I see the error Y (negative scenario)?
 
 After the development of the product and no further bugs are discovered the non-functional
 testing is used to validate the software.
@@ -33,6 +27,45 @@ testing is used to validate the software.
 - Is the product more performant than previous releases or competiors?
 - Is the software secure to be used in trusted enviromnents?
 - Is the software robust enough to handle large amount of data?
+
+### Testing benefits
+___________________________________________________________________________________________________
+
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/9019a24c-8374-4acf-8907-8ae09029f0b0)
+
+As seen in the figure above, testing should start as early as possible. Usually the first is module 
+or unit tests performed by the developer himself. The main advantages of the testing process are:
+
+- To find bugs in the software (testing is the only way to do this)
+- To minimize risks to both users and the company
+- To reduce development and maintenance costs
+- To increase productivity
+
+Ideally, we want to test every possible behavior of the program. This implies testing at least once every 
+possible combination of inputs or every solution path. Obviously, this ideal situation is impossible, so we must 
+use an approximation to this ideal that is also the most efficient overall in terms of risk and costs
+(the sweet spot).
+
+The sweet spot is not easy to be determined as it depends on the product type, the risk types in case of software
+failure, etc. For example a corportate website might have a very different risk profile (mainly financial) than
+an embedded application (loss of human life).
+
+Typically the stop criteria for testing are decided based on:
+
+- When the management level decides that the risk is acceptable
+- When the next iteration of tests finds less than X number of bugs
+- When a certain level of coverage is reached with no new bugs discovered
+
+
+### Testing categorization
+___________________________________________________________________________________________________
+
+
+
+### Testing automation
+___________________________________________________________________________________________________
+
+![Test types](Assets/images/test-types.png)
 
 
 ### Testing techniques
