@@ -31,7 +31,7 @@ testing is used to validate the software.
 ### Testing benefits
 ___________________________________________________________________________________________________
 
-![image](https://github.com/braboj/tutorial-testing/assets/66906831/9019a24c-8374-4acf-8907-8ae09029f0b0)
+![image](Assets/images/qa_risk_vs_cost.png)
 
 As seen in the figure above, testing should start as early as possible. Usually the first is module 
 or unit tests performed by the developer himself. The main advantages of the testing process are:
@@ -41,35 +41,34 @@ or unit tests performed by the developer himself. The main advantages of the tes
 - To reduce development and maintenance costs
 - To increase productivity
 
-Ideally, we want to test every possible behavior of the program. This implies testing at least once every 
-possible combination of inputs or every solution path. Obviously, this ideal situation is impossible, so we must 
-use an approximation to this ideal that is also the most efficient overall in terms of risk and costs
-(the sweet spot).
+Ideally, we want to test every possible behavior of the program. This implies testing at least 
+once every possible combination of inputs or every solution path. Obviously, this ideal 
+situation is impossible, so we must use an approximation to this ideal that is also the most 
+efficient overall in terms of risk and costs (the sweet spot).
 
-The sweet spot is not easy to be determined as it depends on the product type, the risk types in case of software
-failure, etc. For example a corportate website might have a very different risk profile (mainly financial) than
-an embedded application (loss of human life).
+The sweet spot is not easily determined as it depends on the product type, the risk types in 
+case of software failure, etc. For example a corportate website might have a very different risk 
+profile (mainly financial) than an embedded application (loss of human life). Typically the stop 
+criteria for testing are decided based on:
 
-Typically the stop criteria for testing are decided based on:
-
-- When the management level decides that the risk is acceptable
-- When the next iteration of tests finds less than X number of bugs
+- When a minimum set of features are tested
 - When a certain level of coverage is reached with no new bugs discovered
-
-
+- When the next iteration of tests finds less than X number of bugs
+- When the management level decides that the risk is acceptable
+- 
 ### Testing categorization
 ___________________________________________________________________________________________________
 
-![image](https://github.com/braboj/tutorial-testing/assets/66906831/3dffc504-2f0f-45d8-8db5-354a85000956)
-![image](https://github.com/braboj/tutorial-testing/assets/66906831/75f71feb-6dad-457a-97ab-7c0700787cdc).
-![image](https://github.com/braboj/tutorial-testing/assets/66906831/9378e197-bc1a-4cb4-b679-55a21ebae764)
-![image](https://github.com/braboj/tutorial-testing/assets/66906831/3643669e-7a55-498b-99b3-30b72acd1467)
+![image](Assets/images/qa_test_types_1.png)
+![image](Assets/images/qa_test_types_2.png)
+![image](Assets/images/qa_test_types_3.png)
+![image](Assets/images/qa_test_types_4.png)
 
 
 ### Testing automation
 ___________________________________________________________________________________________________
 
-![Test types](Assets/images/test-types.png)
+![Test types](Assets/images/qa_test_automation.png)
 
 
 ### Testing techniques
