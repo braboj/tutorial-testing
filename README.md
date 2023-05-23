@@ -14,17 +14,11 @@ mostly black box testing techniques. In the black box testing scenario the teste
 identify the required functionality, supply it with a test input and compare it with the 
 expected output. 
 
-
-### Testing concepts
-___________________________________________________________________________________________________
-
-![Test types](Assets/images/test-types.png)
-
 The black box testing is usually divided in two parts. First the functional testing is
 used to verify that the software is working correctly.
 
-- When a tested element has a valid input X do I see a correct output Y?
-- When a tested element has an invalid input X do I see the error Y?
+- When a tested element has a valid input X do I see a correct output Y (positive scenario)?
+- When a tested element has an invalid input X do I see the error Y (negative scenario)?
 
 After the development of the product and no further bugs are discovered the non-functional
 testing is used to validate the software.
@@ -34,11 +28,54 @@ testing is used to validate the software.
 - Is the software secure to be used in trusted enviromnents?
 - Is the software robust enough to handle large amount of data?
 
+### Testing benefits
+___________________________________________________________________________________________________
+
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/9019a24c-8374-4acf-8907-8ae09029f0b0)
+
+As seen in the figure above, testing should start as early as possible. Usually the first is module 
+or unit tests performed by the developer himself. The main advantages of the testing process are:
+
+- To find bugs in the software (testing is the only way to do this)
+- To minimize risks to both users and the company
+- To reduce development and maintenance costs
+- To increase productivity
+
+Ideally, we want to test every possible behavior of the program. This implies testing at least once every 
+possible combination of inputs or every solution path. Obviously, this ideal situation is impossible, so we must 
+use an approximation to this ideal that is also the most efficient overall in terms of risk and costs
+(the sweet spot).
+
+The sweet spot is not easy to be determined as it depends on the product type, the risk types in case of software
+failure, etc. For example a corportate website might have a very different risk profile (mainly financial) than
+an embedded application (loss of human life).
+
+Typically the stop criteria for testing are decided based on:
+
+- When the management level decides that the risk is acceptable
+- When the next iteration of tests finds less than X number of bugs
+- When a certain level of coverage is reached with no new bugs discovered
+
+
+### Testing categorization
+___________________________________________________________________________________________________
+
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/3dffc504-2f0f-45d8-8db5-354a85000956)
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/75f71feb-6dad-457a-97ab-7c0700787cdc).
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/9378e197-bc1a-4cb4-b679-55a21ebae764)
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/3643669e-7a55-498b-99b3-30b72acd1467)
+
+
+### Testing automation
+___________________________________________________________________________________________________
+
+![Test types](Assets/images/test-types.png)
+
 
 ### Testing techniques
 ___________________________________________________________________________________________________
 
-- **Ad-hoc testing** (quick script to exlore the product)
+- **Ad-hoc testing** (basic script or manual tests to exlore the product)
 - **Equivalence partitioning** (create value groups)
 - **Boundary value** (test the value groups near the limits)
 - **Decision tables** (useful to test events and state machines)
@@ -57,7 +94,7 @@ ________________________________________________________________________________
 - Create or maintain databases of known test defects.
 
 
-### Minimal requirements for the test case design
+### Testcase design
 ___________________________________________________________________________________________________
 
 1. Each test suit **MUST** have a name convention allowing grouping in categories
@@ -69,29 +106,6 @@ ________________________________________________________________________________
 7. Each test case **MUST** have a short algorithm with easy to follow steps
 8. Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better coverage analysis
 9. Each test case **SHOULD** be able to be reused in different test groups
-
-
-### Example
-___________________________________________________________________________________________________
-
-#### ID
-OMB_API_CONFIG_PORT_01
-
-#### Description
-The DUT MUST use port 502 when the port is set to 0 in the configuration packet.
-
-#### Results
-PASSED, FAILED
-
-#### Algorithm
-
-1. Configure the DUT as a server in message mode and tcpPort set to 0
-2. Create a simulated modbus client and connect to port 502 (default Modbus port)
-3. Send data to the server
-4. Wait for an indication packet from the stack
-5. Send a response to the indication packet
-6. Validate the response sent by the stack on the bus
-7. If all steps succeeded then the test has passed
 
 
 ### Glossary
@@ -130,6 +144,17 @@ ________________________________________________________________________________
 - https://www.simform.com/blog/functional-testing/
 - https://www.guru99.com/code-coverage.html
 
+### Non-functional tests
+ - https://loadninja.com/articles/performance-test-types/
+
+
+### RFC
+- https://datatracker.ietf.org/doc/html/rfc2119
+
+https://lostechies.com/derickbailey/2010/11/11/cost-vs-risk-in-testing/
+https://www.browserstack.com/guide/types-of-testing
+https://www.h2kinfosys.com/blog/software-testing-classification/
+https://www.informit.com/articles/article.aspx?p=2730111&seqNum=3
 
 ### Credits
 ___________________________________________________________________________________________________
