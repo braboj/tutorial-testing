@@ -60,6 +60,10 @@ Typically the stop criteria for testing are decided based on:
 ### Testing categorization
 ___________________________________________________________________________________________________
 
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/3dffc504-2f0f-45d8-8db5-354a85000956)
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/75f71feb-6dad-457a-97ab-7c0700787cdc).
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/9378e197-bc1a-4cb4-b679-55a21ebae764)
+![image](https://github.com/braboj/tutorial-testing/assets/66906831/3643669e-7a55-498b-99b3-30b72acd1467)
 
 
 ### Testing automation
@@ -90,7 +94,7 @@ ________________________________________________________________________________
 - Create or maintain databases of known test defects.
 
 
-### Minimal requirements for the test case design
+### Testcase design
 ___________________________________________________________________________________________________
 
 - Each test suit **MUST** have a name convention allowing grouping in categories
@@ -101,29 +105,6 @@ ________________________________________________________________________________
 - Each test case **MUST** have a short algorithm with easy to follow steps
 - Each test case **SHOULD** return PASSED, FAILED or SKIPPED for better analysis
 - Each test case **SHOULD** be able to be reused in different test groups
-
-
-### Example
-___________________________________________________________________________________________________
-
-#### ID
-OMB_API_CONFIG_PORT_01
-
-#### Description
-The DUT MUST use port 502 when the port is set to 0 in the configuration packet.
-
-#### Results
-PASSED, FAILED
-
-#### Algorithm
-
-1. Configure the DUT as a server in message mode and tcpPort set to 0
-2. Create a simulated modbus client and connect to port 502 (default Modbus port)
-3. Send data to the server
-4. Wait for an indication packet from the stack
-5. Send a response to the indication packet
-6. Validate the response sent by the stack on the bus
-7. If all steps succeeded then the test has passed
 
 
 ### Glossary
@@ -168,6 +149,11 @@ ________________________________________________________________________________
 
 ### RFC
 - https://datatracker.ietf.org/doc/html/rfc2119
+
+https://lostechies.com/derickbailey/2010/11/11/cost-vs-risk-in-testing/
+https://www.browserstack.com/guide/types-of-testing
+https://www.h2kinfosys.com/blog/software-testing-classification/
+https://www.informit.com/articles/article.aspx?p=2730111&seqNum=3
 
 ### Credits
 ___________________________________________________________________________________________________
